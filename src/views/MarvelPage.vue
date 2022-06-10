@@ -35,17 +35,39 @@
         <v-col cols="12" md="6" lg="6" xl="6">
           <card-senhor-fantastico></card-senhor-fantastico>
         </v-col>
-        <v-col cols="12" md="6" lg="6" xl="6"> Capitão América </v-col>
-        <v-col cols="12" md="6" lg="6" xl="6"> Demolidor </v-col>
-        <v-col cols="12" md="6" lg="6" xl="6"> Capitã Marvel </v-col>
-        <v-col cols="12" md="6" lg="6" xl="6"> Thanos </v-col>
-        <v-col cols="12" md="6" lg="6" xl="6"> Pantera Negra </v-col>
-        <v-col cols="12" md="6" lg="6" xl="6"> Doutor Estranho </v-col>
-        <v-col cols="12" md="6" lg="6" xl="6"> Mulher Invisível </v-col>
-        <v-col cols="12" md="6" lg="6" xl="6"> Justiceiro </v-col>
-        <v-col cols="12" md="6" lg="6" xl="6"> Deadpool </v-col>
-        <v-col cols="12" md="6" lg="6" xl="6"> Tocha Humana </v-col>
-        <v-col cols="12" md="6" lg="6" xl="6"> Noturno </v-col>
+        <v-col cols="12" md="6" lg="6" xl="6">
+          <card-capitao-america></card-capitao-america>
+        </v-col>
+        <v-col cols="12" md="6" lg="6" xl="6">
+          <card-demolidor></card-demolidor>
+        </v-col>
+        <v-col cols="12" md="6" lg="6" xl="6">
+          <card-capita-marvel></card-capita-marvel>
+        </v-col>
+        <v-col cols="12" md="6" lg="6" xl="6">
+          <card-thanos></card-thanos>
+        </v-col>
+        <v-col cols="12" md="6" lg="6" xl="6">
+          <card-pantera-negra></card-pantera-negra>
+        </v-col>
+        <v-col cols="12" md="6" lg="6" xl="6">
+          <card-doutor-estranho></card-doutor-estranho>
+        </v-col>
+        <v-col cols="12" md="6" lg="6" xl="6">
+          <card-mulher-invisivel></card-mulher-invisivel>
+        </v-col>
+        <v-col cols="12" md="6" lg="6" xl="6">
+          <card-justiceiro></card-justiceiro>
+        </v-col>
+        <v-col cols="12" md="6" lg="6" xl="6">
+          <card-deadpool></card-deadpool>
+        </v-col>
+        <v-col cols="12" md="6" lg="6" xl="6">
+          <card-tocha-humana></card-tocha-humana>
+        </v-col>
+        <v-col cols="12" md="6" lg="6" xl="6">
+          <card-noturno></card-noturno>
+        </v-col>
         <v-col cols="12" md="6" lg="6" xl="6"> Elektra </v-col>
         <v-col cols="12" md="6" lg="6" xl="6"> Punho de Ferro </v-col>
         <v-col cols="12" md="6" lg="6" xl="6"> Doutor Octopus </v-col>
@@ -74,6 +96,17 @@ import CardRonin from '@/components/marvel/CardRonin.vue';
 import CardViuvaNegra from '@/components/marvel/CardViuvaNegra.vue';
 import CardProfessorX from '@/components/marvel/CardProfessorX.vue';
 import CardSenhorFantastico from '@/components/marvel/CardSenhorFantastico.vue';
+import CardCapitaoAmerica from '@/components/marvel/CardCapitaoAmerica.vue';
+import CardDemolidor from '@/components/marvel/CardDemolidor.vue';
+import CardCapitaMarvel from '@/components/marvel/CardCapitaMarvel.vue';
+import CardThanos from '@/components/marvel/CardThanos.vue';
+import CardPanteraNegra from '@/components/marvel/CardPanteraNegra.vue';
+import CardDoutorEstranho from '@/components/marvel/CardDoutorEstranho.vue';
+import CardMulherInvisivel from '@/components/marvel/CardMulherInvisivel.vue';
+import CardJusticeiro from '@/components/marvel/CardJusticeiro.vue';
+import CardDeadpool from '@/components/marvel/CardDeadpool.vue';
+import CardTochaHumana from '@/components/marvel/CardTochaHumana.vue';
+import CardNoturno from '@/components/marvel/CardNoturno.vue';
 export default {
   name: "MarvelPage",
   components: {
@@ -86,9 +119,21 @@ export default {
     CardRonin,
     CardViuvaNegra,
     CardProfessorX,
-    CardSenhorFantastico
+    CardSenhorFantastico,
+    CardCapitaoAmerica,
+    CardDemolidor,
+    CardThanos,
+    CardCapitaMarvel,
+    CardPanteraNegra,
+    CardDoutorEstranho,
+    CardMulherInvisivel,
+    CardJusticeiro,
+    CardDeadpool,
+    CardTochaHumana,
+    CardNoturno,
   },
 };
 </script>
 
+    
 <style></style>
