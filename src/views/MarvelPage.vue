@@ -68,18 +68,42 @@
         <v-col cols="12" md="6" lg="6" xl="6">
           <card-noturno></card-noturno>
         </v-col>
-        <v-col cols="12" md="6" lg="6" xl="6"> Elektra </v-col>
-        <v-col cols="12" md="6" lg="6" xl="6"> Punho de Ferro </v-col>
-        <v-col cols="12" md="6" lg="6" xl="6"> Doutor Octopus </v-col>
-        <v-col cols="12" md="6" lg="6" xl="6"> Nick Fury </v-col>
-        <v-col cols="12" md="6" lg="6" xl="6"> Doutor Destino </v-col>
-        <v-col cols="12" md="6" lg="6" xl="6"> Vespa </v-col>
-        <v-col cols="12" md="6" lg="6" xl="6"> Homem Formiga </v-col>
-        <v-col cols="12" md="6" lg="6" xl="6"> Rei do Crime </v-col>
-        <v-col cols="12" md="6" lg="6" xl="6"> Caveira Vermelha </v-col>
-        <v-col cols="12" md="6" lg="6" xl="6"> Madame Hydra </v-col>
-        <v-col cols="12" md="6" lg="6" xl="6"> Mercúrio </v-col>
-        <v-col cols="12" md="6" lg="6" xl="6"> Wolverine </v-col>
+        <v-col cols="12" md="6" lg="6" xl="6">
+          <card-elektra></card-elektra>
+        </v-col>
+        <v-col cols="12" md="6" lg="6" xl="6">
+          <card-punho-de-ferro></card-punho-de-ferro>
+        </v-col>
+        <v-col cols="12" md="6" lg="6" xl="6">
+          <card-doutor-octopus></card-doutor-octopus>
+        </v-col>
+        <v-col cols="12" md="6" lg="6" xl="6">
+          <card-nick-fury></card-nick-fury>
+        </v-col>
+        <v-col cols="12" md="6" lg="6" xl="6">
+          <card-doutor-destino></card-doutor-destino>
+        </v-col>
+        <v-col cols="12" md="6" lg="6" xl="6">
+          <card-vespa></card-vespa>
+        </v-col>
+        <v-col cols="12" md="6" lg="6" xl="6">
+          <card-homem-formiga></card-homem-formiga>
+        </v-col>
+        <v-col cols="12" md="6" lg="6" xl="6">
+          <card-rei-do-crime></card-rei-do-crime>
+        </v-col>
+        <v-col cols="12" md="6" lg="6" xl="6">
+          <card-caveira-vermelha></card-caveira-vermelha>
+        </v-col>
+        <v-col cols="12" md="6" lg="6" xl="6">
+          <card-madame-hydra></card-madame-hydra>
+        </v-col>
+        <v-col cols="12" md="6" lg="6" xl="6">
+          <card-mercurio></card-mercurio>
+        </v-col>
+        <v-col cols="12" md="6" lg="6" xl="6">
+          <card-wolverine></card-wolverine>
+        </v-col>
       </v-row>
     </v-container>
   </div>
@@ -107,6 +131,18 @@ import CardJusticeiro from '@/components/marvel/CardJusticeiro.vue';
 import CardDeadpool from '@/components/marvel/CardDeadpool.vue';
 import CardTochaHumana from '@/components/marvel/CardTochaHumana.vue';
 import CardNoturno from '@/components/marvel/CardNoturno.vue';
+import CardElektra from '@/components/marvel/CardElektra.vue';
+import CardPunhoDeFerro from '@/components/marvel/CardPunhoDeFerro.vue';
+import CardDoutorOctopus from '@/components/marvel/CardDoutorOctopus.vue';
+import CardNickFury from '@/components/marvel/CardNickFury.vue';
+import CardDoutorDestino from '@/components/marvel/CardDoutorDestino.vue';
+import CardVespa from '@/components/marvel/CardVespa.vue';
+import CardHomemFormiga from '@/components/marvel/CardHomemFormiga.vue';
+import CardReiDoCrime from '@/components/marvel/CardReiDoCrime.vue';
+import CardCaveiraVermelha from '@/components/marvel/CardCaveiraVermelha.vue';
+import CardMadameHydra from '@/components/marvel/CardMadameHydra.vue';
+import CardMercurio from '@/components/marvel/CardMercurio.vue';
+import CardWolverine from '@/components/marvel/CardWolverine.vue';
 export default {
   name: "MarvelPage",
   components: {
@@ -131,9 +167,22 @@ export default {
     CardDeadpool,
     CardTochaHumana,
     CardNoturno,
+    CardElektra,
+    CardDoutorOctopus,
+    CardPunhoDeFerro,
+    CardNickFury,
+    CardDoutorDestino,
+    CardVespa,
+    CardHomemFormiga,
+    CardReiDoCrime,
+    CardCaveiraVermelha,
+    CardMadameHydra,
+    CardMercurio,
+    CardWolverine
   },
 };
 </script>
 
-    
+   ,
+    CardMercurio 
 <style></style>
