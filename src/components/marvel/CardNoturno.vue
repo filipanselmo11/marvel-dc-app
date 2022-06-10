@@ -1,6 +1,6 @@
 <template>
   <v-card class="mx-auto" max-width="344">
-    <v-img src="../../assets/professor-x.jpeg" max-height="460" max-width="400"></v-img>
+    <v-img src="../../assets/noturno.png" max-height="460" max-width="400"></v-img>
     <v-card-title>Noturno</v-card-title>
     <v-card-actions>
         <v-btn text>Explore</v-btn>

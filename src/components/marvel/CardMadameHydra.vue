@@ -1,7 +1,7 @@
 <template>
   <v-card class="mx-auto" max-width="344">
-    <v-img src="../../assets/professor-x.jpeg" max-height="460" max-width="400"></v-img>
-    <v-card-title>Thanos</v-card-title>
+    <v-img src="../../assets/madame-hydra.jpeg.jpeg" max-height="460" max-width="400"></v-img>
+    <v-card-title>Madame Hydra</v-card-title>
     <v-card-actions>
         <v-btn text>Explore</v-btn>
     </v-card-actions>
