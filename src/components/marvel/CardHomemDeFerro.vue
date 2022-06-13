@@ -132,7 +132,7 @@
                 <strong>Inimigo(s)</strong>
               </div>
               <div class="mr-n2">
-                Mongde de Ferro, Chicote, Negro, Mandarim, Thanos
+                Monge de Ferro, Chicote, Negro, Mandarim, Thanos
               </div>
             </v-card-text>
             <v-card-actions class="justify-end">
