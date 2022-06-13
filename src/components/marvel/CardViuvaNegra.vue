@@ -19,15 +19,18 @@
                 <strong>Codinomes Conhecidos</strong>
               </div>
               <div class="mr-n2">
-                Natash Romanoff, Tasha, Nat, Madame Nikita, Natalie "Nancy" Rushman, Laura Matthers, Nadine Roman,
-                Tsarina, Vermelho, Oktober, Diabo, Natalia Shostakova, Natsuska, Chama de Ébano, Mrs. Heck, Czarina
+                Natash Romanoff, Tasha, Nat, Madame Nikita, Natalie "Nancy" Rushman, Laura
+                Matthers, Nadine Roman, Tsarina, Vermelho, Oktober, Diabo, Natalia
+                Shostakova, Natsuska, Chama de Ébano, Mrs. Heck, Czarina
               </div>
               <div class="mr-2 mt-3">
                 <strong>Terra Natal</strong>
               </div>
-              <div class="mr-n2">
-                Volgogrado, Rússia
+              <div class="mr-n2">Volgogrado, Rússia</div>
+              <div class="mr-2 mt-3">
+                <strong>Espécie</strong>
               </div>
+              <div class="mr-n2">Humana geneticamente modificada</div>
               <div class="mr-2 mt-3">
                 <strong>Afiliações</strong>
               </div>
