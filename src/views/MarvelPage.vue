@@ -104,6 +104,9 @@
         <v-col cols="12" md="6" lg="6" xl="6">
           <card-wolverine></card-wolverine>
         </v-col>
+         <v-col cols="12" md="6" lg="6" xl="6">
+          <card-feiticeira-escarlate></card-feiticeira-escarlate>
+        </v-col>
       </v-row>
     </v-container>
   </div>
@@ -143,6 +146,7 @@ import CardCaveiraVermelha from '@/components/marvel/CardCaveiraVermelha.vue';
 import CardMadameHydra from '@/components/marvel/CardMadameHydra.vue';
 import CardMercurio from '@/components/marvel/CardMercurio.vue';
 import CardWolverine from '@/components/marvel/CardWolverine.vue';
+import CardFeiticeiraEscarlate from '@/components/marvel/CardFeiticeiraEscarlate.vue';
 export default {
   name: "MarvelPage",
   components: {
@@ -178,7 +182,8 @@ export default {
     CardCaveiraVermelha,
     CardMadameHydra,
     CardMercurio,
-    CardWolverine
+    CardWolverine,
+    CardFeiticeiraEscarlate
   },
 };
 </script>
