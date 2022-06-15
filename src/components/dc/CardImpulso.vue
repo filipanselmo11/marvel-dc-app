@@ -15,25 +15,13 @@
                 <strong>Nome Completo</strong>
               </div>
               <div class="mr-n2">
-                Oliver Jonas Queen
+                Bart Allen
               </div>
                <div class="mr-2 mt-3">
                 <strong>Codinomes Conhecidos</strong>
               </div>
               <div class="mr-n2">
-                Capuz, Robin Hood, Arqueiro Esmeralda, Prefeito Queen
-              </div>
-              <div class="mr-2 mt-3">
-                <strong>Terra Natal</strong>
-              </div>
-              <div class="mr-n2">
-                Star City
-              </div>
-              <div class="mr-2 mt-3">
-                <strong>Espécie</strong>
-              </div>
-              <div class="mr-n2">
-                Humana
+                Kid Flash, Flash, Flash Branco
               </div>
               <div class="mr-2 mt-3">
                 <strong>Afiliações</strong>
@@ -44,7 +32,7 @@
                     <v-card>
                       <v-container>
                         <v-row>
-                          <v-col cols="12" md="8">Liga da Justiça</v-col>
+                          <v-col cols="12" md="8">Justiça Jovem</v-col>
                         </v-row>
                       </v-container>
                     </v-card>
@@ -54,25 +42,7 @@
                     <v-card>
                       <v-container>
                         <v-row>
-                          <v-col cols="12" md="10">Indústria Queen</v-col>
-                        </v-row>
-                      </v-container>
-                    </v-card>
-                  </v-timeline-item>
-                  <v-timeline-item color="blue" fill-dot left small>
-                    <v-card>
-                      <v-container>
-                        <v-row>
-                          <v-col cols="12" md="10">Sete Soldados da Vitória</v-col>
-                        </v-row>
-                      </v-container>
-                    </v-card>
-                  </v-timeline-item>
-                  <v-timeline-item color="yellow" fill-dot right>
-                    <v-card>
-                      <v-container>
-                        <v-row>
-                          <v-col cols="12" md="10">Renegados</v-col>
+                          <v-col cols="12" md="10">Novos Titãs</v-col>
                         </v-row>
                       </v-container>
                     </v-card>
