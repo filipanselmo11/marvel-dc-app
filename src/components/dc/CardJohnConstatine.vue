@@ -3,17 +3,39 @@
     <v-img src="../../assets/constantine.png" max-height="460" max-width="400"></v-img>
     <v-card-title>John Constatine</v-card-title>
     <v-card-actions>
-        <v-btn text>Explore</v-btn>
+      <v-dialog transition="dialog-bottom-transition" max-width="600">
+        <template v-slot:activator="{ on, attrs }">
+          <v-btn text v-bind="attrs" v-on="on">Explore</v-btn>
+        </template>
+        <template v-slot:default="dialog">
+          <v-card>
+            <v-toolbar dark>John Constatine</v-toolbar>
+            <v-card-text>
+              <div class="mr-2 mt-3">
+                <strong>Nome Completo</strong>
+              </div>
+              <div class="mr-n2">John Constantine</div>
+              <div class="mr-2 mt-3">
+                <strong>Codinomes conhecidos</strong>
+              </div>
+              <div class="mr-n2">Hellblazer</div>
+              <div class="mr-2 mt-3">
+                <strong>Terra Natal</strong>
+              </div>
+              <div class="mr-n2">Liverpool, Inglaterra</div>
+            </v-card-text>
+            <v-card-actions class="justify-end">
+              <v-btn text @click="dialog.value = false">Fechar</v-btn>
+            </v-card-actions>
+          </v-card>
+        </template>
+      </v-dialog>
     </v-card-actions>
   </v-card>
 </template>
 
 <script>
-export default {
-
-}
+export default {};
 </script>
 
-<style>
-
-</style>
+<style></style>

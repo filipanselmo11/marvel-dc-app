@@ -3,7 +3,25 @@
     <v-img src="../../assets/red-robin.jpeg" max-height="460" max-width="400"></v-img>
     <v-card-title>Robin Vermelho</v-card-title>
     <v-card-actions>
-        <v-btn text>Explore</v-btn>
+         <v-dialog transition="dialog-bottom-transition" max-width="600">
+        <template v-slot:activator="{ on, attrs }">
+          <v-btn text v-bind="attrs" v-on="on">Explore</v-btn>
+        </template>
+        <template v-slot:default="dialog">
+          <v-card>
+            <v-toolbar dark>Robin Vermelo</v-toolbar>
+            <v-card-text>
+              <div class="mr-2 mt-3">
+                <strong>Personagens que já assumiram o manto de Robin Vermelho</strong>
+              </div>
+              <div class="mr-n2">Jason Todd, Ulysses Armstrong, Dick Grayson, Tim Drake</div>
+            </v-card-text>
+            <v-card-actions class="justify-end">
+              <v-btn text @click="dialog.value = false">Fechar</v-btn>
+            </v-card-actions>
+          </v-card>
+        </template>
+      </v-dialog>
     </v-card-actions>
   </v-card>
 </template>
